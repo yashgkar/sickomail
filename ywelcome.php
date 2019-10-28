@@ -19,7 +19,7 @@ error_reporting(1);
         <nav>
             <ul class="nav__links">
                 <li><a href="yregister.php"><button>NEW USER?</button></a></li>
-                <li><a href="aboutus.php"><button>ABOUT US</button></a></li>
+                <li><a href="yaboutus.php"><button>ABOUT US</button></a></li>
             </ul>
         </nav>
     </header>

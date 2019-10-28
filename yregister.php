@@ -47,7 +47,7 @@
         <h4>SickoMail</h4>
         <nav>
             <ul class="nav__links">
-                <li><a href="yindex.php"><button>LOGIN</button></a></li>
+                <li><a href="index.php"><button>LOGIN</button></a></li>
                 <li><a href="yaboutus.php"><button>ABOUT US</button></a></li>
             </ul>
         </nav>

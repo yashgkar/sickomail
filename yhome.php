@@ -1,7 +1,7 @@
 <?php
 session_start();
 if ($_SESSION['sid'] == "") {
-    header('Location:yindex.php');
+    header('Location:index.php');
 }
 $id = $_SESSION['sid'];
 ?>
@@ -21,7 +21,7 @@ $id = $_SESSION['sid'];
         <h4>SickoMail</h4>
         <nav>
             <ul class="nav__links">
-                <li><a href="aboutus.php"><button>ABOUT US</button></a></li>
+                <li><a href="yaboutus.php"><button>ABOUT US</button></a></li>
                 <li><a href="yhome.php?chk=logout"><button>LOGOUT</button></a></li>
             </ul>
         </nav>
@@ -118,7 +118,7 @@ $id = $_SESSION['sid'];
     $chk = $_GET['chk'];
     if ($chk == "logout") {
         unset($_SESSION['sid']);
-        header('Location:yindex.php');
+        header('Location:index.php');
     }
     ?>
 

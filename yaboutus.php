@@ -14,7 +14,7 @@
         <h4>SickoMail</h4>
         <nav>
             <ul class="nav__links">
-                <li><a href="yindex.php"><button>HOME</button></a></li>
+                <li><a href="index.php"><button>HOME</button></a></li>
             </ul>
         </nav>
     </header>

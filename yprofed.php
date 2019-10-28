@@ -1,7 +1,7 @@
 <?php
 session_start();
 if ($_SESSION['sid'] == "") {
-    header('Location:yindex.php');
+    header('Location:index.php');
 }
 $id = $_SESSION['sid'];
 ?>
